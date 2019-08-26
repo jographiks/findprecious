@@ -1,0 +1,147 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial, sans-serif;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+p, h1, h2, label, input{
+    color: #6d6e71;
+}
+h3{
+    font-size: 25px;
+    color: #414042;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: #a7a9ab; 
+}
+
+/* HEADER */
+.navbar{
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin: 0 30px;
+}
+.navbar-brand{
+    padding: 0 10px;
+}
+.active{
+    background-color: #6d6e71; 
+}
+.nav-item:hover{
+    background-color: #6d6e71; 
+}
+a.nav-link:hover{
+    color: #fff!important;
+}
+
+/* CAROUSEL */
+.slide_img .texte {
+  position:absolute;
+  top:4em;
+  left:4em;
+  color:white;
+  font-size:2em;
+  width:692px;      
+}
+.texte {
+  z-index: 1;     
+}
+.caption-h2{
+    font-size: 16px;
+}
+#carousel h2{
+    color: #fff;
+    line-height: 1em;
+}
+
+/* FELLOWS */
+#fellows h2{
+    padding: 40px 0;
+    font-size: 25px;
+}
+.caption{
+    font-size: 18px;
+}
+.card{
+    margin: 10px;
+}
+.card-text {
+    font-size: 14px;
+}
+.card > img{
+    border-radius: 5px;
+    padding: 2px;
+}
+.cadre {
+  position: relative;   
+  overflow: hidden;    
+  line-height: 4em;    
+}
+.cadre p {
+  display: block;
+  margin: 20px auto;
+  position: absolute;   
+  left: -100%;          
+  padding: 0.25em 1em;    
+  border-radius: 20px;
+  font-size: 13px!important;
+  color: #eee;          
+  background: rgba(34,31,32,0.8);     
+  transition: all .5s;  
+}
+.cadre:hover p {
+  left: 1.5em;           
+}
+
+/* CONTACT US */
+#contact hr{
+    margin-top: 100px;
+}
+#contact h2{
+    font-size: 25px;
+}
+#form{
+    margin: 50px auto;
+    width: 80%;   
+}
+.form-group{
+    margin: 20px 0;
+}
+.btn-style{
+    float: right;
+    padding: 10px 40px;
+    background-color: #a7a9ab;
+    border: solid 1px #414042;
+}
+/* FOOTER */
+#mentions{
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #414042;
+}
+#mentions a{
+    font-size: 12px;
+}
+#mentions ul{
+    padding: 0 100px 0 20px;
+}
+#mentions li{
+    padding-top: 5px;
+}
+.site-mentions{
+    padding: 20px;
+}
+.site-mentions a, p{
+    color: #a7a9ab; 
+    font-size: 15px!important;
+}
