@@ -1,2 +1,0 @@
-# findprecious
-FindThePrecious
